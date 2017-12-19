@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginTop="50dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:layout_marginTop="8dp"
+                >
+
+
+                <ImageView
+                    android:id="@+id/i1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:clickable="true"
+                    android:onClick="link"
+                    app:srcCompat="@drawable/game1" />
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:clickable="true"
+                    android:onClick="link"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="30dp"
+                    android:text="Angry Birds Rio 2.6.6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="20dp"
+                >
+
+
+                <ImageView
+                    android:id="@+id/i2"
+                    android:layout_width="60dp"
+                    android:clickable="true"
+                    android:layout_height="60dp"
+                    android:onClick="link"
+                    app:srcCompat="@drawable/game2" />
+
+                <TextView
+                    android:id="@+id/t2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:clickable="true"
+                    android:paddingLeft="20dp"
+                    android:onClick="link"
+                    android:paddingRight="30dp"
+                    android:text="Angry Birds Space 2.2.12" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                >
+
+
+                <ImageView
+                    android:id="@+id/i3"
+                    android:layout_width="60dp"
+                    android:onClick="link"
+                    android:layout_height="60dp"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/game3" />
+
+                <TextView
+                    android:id="@+id/t3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:onClick="link"
+                    android:textColor="@color/black"
+                    android:clickable="true"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="30dp"
+                    android:text="Angry Birds Go! 2.7.3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                >
+
+
+                <ImageView
+                    android:id="@+id/i4"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:onClick="link"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/game4" />
+
+                <TextView
+                    android:id="@+id/t4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="link"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:paddingLeft="20dp"
+                    android:clickable="true"
+                    android:paddingRight="30dp"
+                    android:text="Angry Birds Friends 3.9.0" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                >
+
+
+                <ImageView
+                    android:id="@+id/i5"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:onClick="link"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/game5" />
+
+                <TextView
+                    android:id="@+id/t5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:onClick="link"
+                    android:paddingLeft="20dp"
+                    android:clickable="true"
+                    android:paddingRight="30dp"
+                    android:text="Angry Birds Seasons 6.6.1" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                >
+
+
+                <ImageView
+                    android:id="@+id/i6"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:onClick="link"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/game6" />
+
+                <TextView
+                    android:id="@+id/t6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"
+                    android:onClick="link"
+                    android:clickable="true"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="30dp"
+                    android:text="Angry Birds POP Bubble Shooter 3.21.0" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                >
+
+
+                <ImageView
+                    android:id="@+id/i7"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:onClick="link"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/game7" />
+
+                <TextView
+                    android:id="@+id/t7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:layout_gravity="center"
+                    android:onClick="link"
+                    android:textColor="@color/black"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="30dp"
+                    android:text="Tips Angry Birds Match 1.0" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                >
+
+
+                <ImageView
+                    android:id="@+id/i8"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:onClick="link"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/game8" />
+
+                <TextView
+                    android:id="@+id/t8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:layout_gravity="center"
+                    android:onClick="link"
+                    android:textColor="@color/black"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="30dp"
+                    android:text="Bad Piggies" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                >
+
+
+                <ImageView
+                    android:id="@+id/i9"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:onClick="link"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/game9" />
+
+                <TextView
+                    android:id="@+id/t9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:layout_gravity="center"
+                    android:onClick="link"
+                    android:textColor="@color/black"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="30dp"
+                    android:text="Smash Birds 2: Free Cool Game" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                >
+
+
+                <ImageView
+                    android:id="@+id/i10"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:onClick="link"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/game10" />
+
+                <TextView
+                    android:id="@+id/t10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:layout_gravity="center"
+                    android:onClick="link"
+                    android:textColor="@color/black"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="30dp"
+                    android:text="Birds Bomber match3" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                >
+
+
+                <ImageView
+                    android:id="@+id/i11"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:onClick="link"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/game11" />
+
+                <TextView
+                    android:id="@+id/t11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:layout_gravity="center"
+                    android:onClick="link"
+                    android:textColor="@color/black"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="30dp"
+                    android:text="Latest Angry Birds 2 Guide" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                >
+
+
+                <ImageView
+                    android:id="@+id/i12"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:onClick="link"
+                    android:clickable="true"
+                    app:srcCompat="@drawable/game12" />
+
+                <TextView
+                    android:id="@+id/t12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:layout_gravity="center"
+                    android:onClick="link"
+                    android:textColor="@color/black"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="30dp"
+                    android:text="Easy Draw: Angry Birds" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Smart Angry Birds</string>
+    <string name="welcome">Welcome!</string>
+    <string name="math">Angry Birds Math</string>
+    <string name="alpha">Angry Birds Alphabet</string>
+    <string name="hang"> Games </string>
+    <string name="movie">Movie</string>
+    <string name="plus">Adition</string>
+    <string name="minus">Subtraction</string>
+    <string name="deli">Division</string>
+    <string name="mnozi">Multiplication</string>
+</resources>
